@@ -33,5 +33,5 @@ Inicia el servidor de Expo:
 pnpm exec expo start -c
 ```
 
-> .[!NOTA]
+> [!NOte]
 > El proyecto no funcionará por la falta de credenciales en las variables de entorno, pero con las capturas se asegura que el proyecto funciona, al menos para esta version inicial.
