@@ -1,0 +1,25 @@
+{
+  "cli": {
+    "version": ">= 5.0.0"
+  },
+  "build": {
+    "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "env": {
+        "EXPO_PUBLIC_MS_AUTH_URL": "https://ms-auth.agro-ecologica.workers.dev",
+        "EXPO_PUBLIC_MS_ACADEMIC_URL": "https://ms-academic.agro-ecologica.workers.dev",
+        "EXPO_PUBLIC_MS_REVIEWS_URL": "https://ms-reviews.agro-ecologica.workers.dev",
+        "EXPO_PUBLIC_SUPABASE_URL": "https://ffbichsuatveqcpiulvh.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImZmYmljaHN1YXR2ZXFjcGl1bHZoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODg3MTk4MDksImV4cCI6MjEwNDI5NTgwOX0.HZ940VLE8NS33JKb8q01I3n1RihTPBbGam31VSyKFkI"
+      }
+    },
+    "production": {
+      "android": {
+        "buildType": "app-bundle"
+      }
+    }
+  }
+}
