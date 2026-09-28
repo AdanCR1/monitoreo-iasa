@@ -1,4 +1,5 @@
 export const COLORS = {
+  bg: '#1E2923', 
   bgGradientStart: '#1E2923',
   bgGradientEnd: '#2A3B32',
   
@@ -25,9 +26,11 @@ export const SIZES = {
   padding: 24,
   gap: 20,
   font: {
+    xs: 14, 
     sm: 18,
     md: 22,
     lg: 28,
-    xl: 52,
-  }
+    xl: 32,                        
+    xxl: 52, 
+  }                       
 };

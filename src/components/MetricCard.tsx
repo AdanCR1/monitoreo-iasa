@@ -33,7 +33,7 @@ const styles = StyleSheet.create({
     color: COLORS.primary,
   },
   title: {
-    fontSize: SIZES.font.sm,
+    fontSize: SIZES.font.xs,
     color: COLORS.textSecondary,
     marginTop: 8,
     textAlign: 'center',

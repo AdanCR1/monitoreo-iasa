@@ -1,5 +1,6 @@
 import { View, Text, StyleSheet } from 'react-native';
 import { COLORS, SIZES } from '../constants/theme';
+import React from 'react';
 
 export default function UserRow({ name, isOnline = false }: { name: string, isOnline?: boolean }) {
   return (
